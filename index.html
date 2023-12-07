@@ -1,116 +1,162 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="shortcut icon" href="assets/img/logo/logo.webp" type="image/x-icon">
+    <link rel="icon" href="asset/img/logo/logo.webp" type="image/gif" sizes="16x16">
     <title>World Information</title>
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
 
+    <link rel="stylesheet" href="asset/css/style.css">
 </head>
+
 <body>
+
+    <section id="top-section" class="">
+
+        <div class="row">            
+            <div class="col-md-3 col-sm-6 col-6 topIcons">
+              <select class="custom-select">
+                <option selected>Country</option>
+                <option value="1">Bangladesh</option>
+                <option value="2">India</option>
+                <option value="3">Pakistan</option>
+              </select>
+            </div>
+            <div class="col-md-3 col-sm-6 col-6 topIcons">
+              <select class="custom-select">
+                <option selected>State</option>
+                <option value="1">Dhaka</option>
+                <option value="2">Barishal</option>
+                <option value="3">Chattagram</option>
+              </select>
+            </div>
+            <div class="col-md-3 col-sm-6 col-6 topIcons">
+              <select class="custom-select">
+                <option selected>City</option>
+                <option value="1">Dhaka</option>
+                <option value="2">Narayanganj</option>
+                <option value="3">Gazipur</option>
+              </select>
+            </div>
+            <div class="col-md-3 col-sm-6 col-6 topIcons">
+              <select class="custom-select">
+                <option selected>Area</option>
+                <option value="3">Narayanganj Sadar</option>
+                <option value="1">Fatullah</option>
+                <option value="2">Kutubpur</option>                
+              </select>
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+
     
-    <header>
 
-        <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+
+
+
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top second-nav">
+        <div class="container-fluid">
             <a class="navbar-brand" href="index.html">
-               <img src="assets/img/logo/logo.webp" width="30" height="30" alt="">
+                <img src="asset/img/logo/logo.webp" alt="Niom IT Logo" class="logo">
             </a>
-          
-            <input class="form-control" type="search" placeholder="Search" aria-label="Search">
 
-            <button class="btn btn-outline-success" type="submit">
-                <i class="fa fa-user" aria-hidden="true"></i>
-            </button>             
-        </nav>
 
-    </header>
+            <nav class=" navbar-light bg-light">
+              <form class="">
+                <input class="" type="search" placeholder="Search" aria-label="Search">
+                <button class="" type="submit">
+                  <i class="fa fa-search" aria-hidden="true"></i>
+                </button>
+              </form>
+            </nav>
+            
 
-    <body>
-        
-        <div class="">
-       
-            <div class="row">
-
-                <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="assets/img/logo/logo.webp" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div>
-                    <div class="card-body">
-                        <a href="#" class="card-link">Like</a>
-                        <a href="#" class="card-link">Comment</a>
-                        <a href="#" class="card-link">Share</a>
-                    </div>
+            <div class="justify-content-end" id="navbarNavAltMarkup">
+                <div class="navbar-nav ml-auto">
+                    <a class="nav-link active" href="#">
+                      <i class="fa fa-user" aria-hidden="true"></i>
+                    </a>                    
                 </div>
-                
-                <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="assets/img/logo/logo.webp" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div>
-                    <div class="card-body">
-                        <a href="#" class="card-link">Like</a>
-                        <a href="#" class="card-link">Comment</a>
-                        <a href="#" class="card-link">Share</a>
-                    </div>
-                </div>
-
-                <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="assets/img/logo/logo.webp" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div>
-                    <div class="card-body">
-                        <a href="#" class="card-link">Like</a>
-                        <a href="#" class="card-link">Comment</a>
-                        <a href="#" class="card-link">Share</a>
-                    </div>
-                </div>
-
-                <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="assets/img/logo/logo.webp" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div>
-                    <div class="card-body">
-                        <a href="#" class="card-link">Like</a>
-                        <a href="#" class="card-link">Comment</a>
-                        <a href="#" class="card-link">Share</a>
-                    </div>
-                </div>
-
-                <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="assets/img/logo/logo.webp" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div>
-                    <div class="card-body">
-                        <a href="#" class="card-link">Like</a>
-                        <a href="#" class="card-link">Comment</a>
-                        <a href="#" class="card-link">Share</a>
-                    </div>
-                </div>
-
             </div>
 
         </div>
+    </nav>
 
-    </body>
 
 
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+
+
+
+
+
+
+
+    <div class="">
+
+      <div class="scrollmenu"> 
+          <a href="../">&larr; Backpage</a>
+          <a href="#support">Catagory</a> 
+          <a href="#blog">Catagory</a> 
+          <a href="#tools">Catagory</a>   
+          <a href="#base">Catagory</a> 
+          <a href="#custom">Catagory</a> 
+          <a href="#more">Catagory</a>
+          <a href="#support">Catagory</a> 
+          <a href="#blog">Catagory</a> 
+          <a href="#tools">Catagory</a>   
+          <a href="#base">Catagory</a> 
+          <a href="#custom">Catagory</a> 
+          <a href="#more">Catagory</a>
+          <a href="#support">Catagory</a> 
+          <a href="#blog">Catagory</a> 
+          <a href="#tools">Catagory</a>   
+          <a href="#base">Catagory</a> 
+          <a href="#custom">Catagory</a> 
+          <a href="#more">Catagory</a>
+      </div> 
+  
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="../asset/js/index.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh41eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+
+    <script src=" https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js " integrity=" sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo " crossorigin=" anonymous "></script>
+    <script src=" https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js " integrity=" sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/ " crossorigin=" anonymous "></script>
 
 </body>
+
 </html>
