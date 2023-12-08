@@ -518,3 +518,37 @@ div.scrollmenu {
     display: block;
 }
   
+
+.custom-select {
+    width: 95%;
+}
+
+
+.postDetailImg {
+    width: auto;
+    max-height: 400px;
+    margin: 20px 0;
+    background-color: gainsboro;
+    margin: 0 auto;
+}
+
+.newsInfoDetail,
+.card-view-text {
+    font-size: 12px;
+    margin: 10px 0;
+}
+
+.closeBtn {
+    color: red;
+    font-weight: bold;
+    float: right;
+}
+
+.commentSec{
+    background-color: #f3f4f5;
+    text-align: center;
+}
+
+.commentSec textarea {
+    width: 90%;
+}
