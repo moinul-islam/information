@@ -560,3 +560,7 @@ div.scrollmenu {
 .logout {
     color: red;
 }
+
+p.small {
+    color: #646464;
+}
